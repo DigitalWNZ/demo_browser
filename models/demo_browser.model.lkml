@@ -25,3 +25,5 @@ explore: wtrace_view {}
 explore: wtrace_view_1 {}
 
 explore: test_sqlrunner {}
+
+explore: pdt_wild {}
