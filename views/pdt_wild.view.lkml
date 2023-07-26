@@ -55,6 +55,7 @@ view: pdt_wild {
   }
 
   dimension: user_id {
+    hidden: yes
     type: string
     sql: ${TABLE}.user_id ;;
   }

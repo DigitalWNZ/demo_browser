@@ -62,6 +62,7 @@ view: events_20180521 {
   }
 
   dimension: device__advertising_id {
+    hidden: yes
     type: string
     sql: ${TABLE}.device.advertising_id ;;
     group_label: "Device"
@@ -230,6 +231,7 @@ view: events_20180521 {
   }
 
   dimension: user_id {
+    hidden: yes
     type: string
     sql: ${TABLE}.user_id ;;
   }
@@ -254,6 +256,7 @@ view: events_20180521 {
   }
 
   dimension: user_pseudo_id {
+    hidden: yes
     type: string
     sql: ${TABLE}.user_pseudo_id ;;
   }
